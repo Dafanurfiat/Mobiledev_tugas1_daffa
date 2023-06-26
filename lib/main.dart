@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
             },
             backgroundColor: const Color(0XFF181A20), // Mengatur latar belakang pada bottom navigation bar
             unselectedItemColor: Colors.grey, // Mengatur warna abu-abu untuk ikon dan teks yang tidak terpilih
-            selectedItemColor: Color.fromARGB(255, 120, 18, 138), // Mengatur warna ungu untuk ikon dan teks yang dipilih
+            selectedItemColor: const Color.fromARGB(255, 120, 18, 138), // Mengatur warna ungu untuk ikon dan teks yang dipilih
             items: const <BottomNavigationBarItem>[
               BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
               BottomNavigationBarItem(

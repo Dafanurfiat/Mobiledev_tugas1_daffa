@@ -14,7 +14,9 @@ class Day2Page extends StatelessWidget {
           Text(
             'Health First',
             style: poppinsTextStyle.copyWith(
-                fontSize: 24, color: const Color.fromARGB(255, 120, 18, 138), fontWeight: FontWeight.w600),
+                fontSize: 24,
+                color: const Color.fromARGB(255, 120, 18, 138),
+                fontWeight: FontWeight.w600),
           ),
           const SizedBox(
             height: 15,
@@ -57,13 +59,14 @@ class Day2Page extends StatelessWidget {
           const SizedBox(
             height: 20,
           ),
-          Text(
+          const Text(
             'Terms & Conditions',
             textAlign: TextAlign.center,
             style: TextStyle(
               decoration: TextDecoration.underline,
-              color: const Color.fromARGB(255, 120, 18, 138), // Mengatur warna tulisan menjadi ungu
-              ),
+              color: Color.fromARGB(
+                  255, 120, 18, 138), // Mengatur warna tulisan menjadi ungu
+            ),
           ),
           const SizedBox(
             height: 40,
